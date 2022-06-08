@@ -1,52 +1,75 @@
-header{
-    width:100%;
+header {
+    width: 100%;
     background-color: #BBBB;
 }
-.container{
+
+.container {
     position: relative;
-    width:940px;
+    width: 940px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     position: absolute;
-    top:110px;
+    top: 110px;
     right: 0px;
 }
-nav li{
-    display: inline;
-    margin:0 0 0 15px ;
 
-} 
-nav a{
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
     text-transform: uppercase;
     color: #000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-} 
-nav a:hover{
+}
+
+nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
 
+form {
+    margin: 40px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-footer{
-    background:url(../img/bg.jpg);
+form label,p, legend {
+    display: block;
+    font-size:20px;
+    margin:0 0 10px;
+}
+.default-input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:50%;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+    box-shadow: 2px 2px 2px  0px blue;
+}
+textarea{
+  resize: none;
+}
+.checkbox-contato{
+      margin: 20px 0;  
+}
+footer {
+    background: url(../img/bg.jpg);
     text-align: center;
     padding: 40px;
 }
-footer .copyright{
+footer .copyright {
     color: #ffff;
     font-size: 13px;
     margin: 20px 0 0;
